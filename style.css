@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    border: 1px,solid white;
+    padding: 15px;
+    background-position: center;
+    background-color:rgb(234, 174, 96);
+    border-radius: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: rgb(186, 62, 17);
+    font-style: italic;
+}
+.nav-links{
+    display: flex;
+    gap : 20px;
+}
+.login-container{
+    display: flex;
+    gap : 20px;
+}
+.image-container{
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    background: url('vanaras.jpeg')
+}
+.content-wrapper{
+    text-align: center;
+    margin-top: 150px;
+    color:rgb(122, 31, 31);
+}
